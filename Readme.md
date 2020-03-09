@@ -4,7 +4,7 @@ This is a tool to update Abp MicroService solution to your project.
 
 Today it is only support one command : update.
 
-**Update** command has three :
+**Update** command has four options :
 - **-r** update projects file (.csproj) from projectreference to packagereference
 - **-p** path of main .sln directory,if not set ,it will be current directory
 -  **-d** the option convert from SqlServer to your EfProvider (eg.MySQL)
