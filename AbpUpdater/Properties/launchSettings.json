@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AbpUpdater": {
+      "commandName": "Project",
+      "commandLineArgs": "update -p C:\\Projects\\abp\\samples\\MicroserviceDemo -r 2.2.1 -c Default:Server=(localdb)\\\\MSSQLLocalDB;Database=MsDemo_Identity;Trusted_Connection=True;MultipleActiveResultSets=true,Default2:Server=(localdb)\\\\MSSQLLocalDB;Database=MsDemo_Identity;Trusted_Connection=True;MultipleActiveResultSets=true  -d MySQL"
+    }
+  }
+}
