@@ -1,6 +1,6 @@
 ## Abp updater
 
-This is a tool to update Abp MicroService solution to your project.
+This is a tool to update [Abp](https://abp.io) [MicroService solution](https://github.com/abpframework/abp/tree/dev/samples/MicroserviceDemo) to your project.
 
 Today it is only support one command : update.
 

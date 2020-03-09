@@ -50,7 +50,7 @@ namespace AbpUpdater
             var u = new Updater();
 
             bool replaceReference = options.ContainsKey("r");
-            var ver = options.GetOrNull("r") ?? "0.0.0";
+            var ver = options.GetOrNull("r") ?? "2.2.1";
             await u.UpdatePackages(path, connections, ver, replaceReference, dbprovider);
             Console.WriteLine("Update command finished!");
         }
